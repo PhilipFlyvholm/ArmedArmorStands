@@ -55,7 +55,7 @@ public class ArmedArmorStands extends JavaPlugin implements Listener {
 		this.debug("Players is now setup&2 \u2713");
 		registerEvents();
 		registerCommands();
-		plugin.log("CustomCobbleGen is now enabled&2 \u2713");
+		plugin.log("ArmedArmorStands is now enabled&2 \u2713");
 	}
 	
 	@Override
