@@ -45,7 +45,7 @@ public class PlayerManager {
 	public void saveToFile() {
 		if(enabledArms == null || enabledArms.isEmpty()) return;
 		for(Entry<UUID, Boolean> entry : enabledArms.entrySet()) {
-			plugin.getPlayerConfig().set("players." + entry.getKey().toString() + ".armsEnabled", entry.getValue().toString());
+			plugin.getPlayerConfig().set("players." + entry.getKey().toString() + ".armsEnabled", entry.getValue());
 		}
 	}
 	

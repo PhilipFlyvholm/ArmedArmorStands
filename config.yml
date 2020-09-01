@@ -1,6 +1,0 @@
-#Config for ArmedArmorStands by Phil14052
-
-#With PermissionBased to true its only people with permission who can
-#Make armor stands with arms
-PermissionBased: false
-Permission: 'armedarmorstands.armed'
