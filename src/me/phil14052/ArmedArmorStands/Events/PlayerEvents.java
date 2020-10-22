@@ -32,7 +32,7 @@ public class PlayerEvents implements Listener{
 	private static ArmedArmorStands plugin = ArmedArmorStands.getInstance();
 	private static PlayerManager pm = PlayerManager.getInstance();
 	
-	@EventHandler
+	@EventHandler(ignoreCancelled=true)
 	public void onPlayerInteract(PlayerInteractEvent e) {
 		if(!e.getAction().equals(Action.RIGHT_CLICK_BLOCK)) return;
 		Block block = e.getClickedBlock();
